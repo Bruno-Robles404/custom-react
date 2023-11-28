@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faTwitch } from "@fortawesome/free-brands-svg-icons"
 
 
 // IMPORTO EL ARCHIVO CSS
@@ -16,17 +16,29 @@ const Footer = () => {
     <footer>
       <div className="footer-container">
         <img className="footer-img" src={brand} alt="logo" />
+        <p className="footer-paragraph">
+
+          EL LUGAR DEL MUNDO DONDE MAS FUERTE LATE EL CORAZON DE LA PATAGONIA</p>
+
       </div>
+
       <div className="redes-container">
         <ul>
           <li>
-            <FontAwesomeIcon icon={faHome} />
+            <a href="">  <FontAwesomeIcon icon={faHome} />  </a>
           </li>
-          <FontAwesomeIcon icon={faFacebook} />
           <li>
-
+            <a href=""><FontAwesomeIcon icon={faFacebook} /> </a>
+          </li>
+          <li>
+            <a href="">  <FontAwesomeIcon icon={faInstagram} /></a>
+          </li>
+          <li>
+            <a href=""><FontAwesomeIcon icon={faTwitch} /> </a>
           </li>
         </ul>
+      </div>
+      <div>
 
       </div>
 
