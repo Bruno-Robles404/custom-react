@@ -5,33 +5,38 @@ import React from "react";
 import "./style.css"
 
 const NavBar = () => {
-    //declaro una variable donde se almacenara la ruta de la imagen del logo
-const brand = "./src/components/img/logo.webp";
+  //declaro una variable donde se almacenara la ruta de la imagen del logo
+  const brand = "./src/components/img/patagonia-logo.png";
+  const beer = "./src/components/img/lata.jpg";
 
-return (
+  return (
     <header className="header">
       {/* logo de la marca */}
       <div className="logo-container">
-        <img src={brand} alt="logo" />
+        <img className="logo-img" src={brand} alt="logo" />
       </div>
 
       {/* links de navegación */}
       <nav>
         <ul className="nav-container">
           <li>
-            <a href="/">Inicio</a>
+            <a href="/">HOME</a>
           </li>
           <li>
-            <a href="/">Productos</a>
+            <a href="/">PRODUCTOS</a>
           </li>
           <li>
-            <a href="/">Blog</a>
-          </li>
-          <li>
-            <a href="/">Contacto</a>
+            <a href="/">SHOP</a>
           </li>
         </ul>
       </nav>
+      <div className="beer-container">
+        
+        <a href="">  
+          <img className="beer-img" src={beer} alt="beer carrito" />
+        </a>
+
+      </div>
 
     </header>
   );

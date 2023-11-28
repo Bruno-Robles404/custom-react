@@ -1,3 +1,6 @@
+
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -12,19 +15,33 @@ header {
     padding-top: 3px;
     cursor: pointer;
   }
+
   
+  .logo-img{
+    width: 250px;
+    height: 100px;
+  } 
+
   .nav-container {
     display: flex;
+
   }
   
   .nav-container li {
     margin: 0 10px;
     list-style: none;
+  
   }
   
   .nav-container li a {
     text-decoration: none;
     color: white;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .beer-img {
+    width: 150px;
+
   }

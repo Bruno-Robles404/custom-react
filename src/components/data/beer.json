@@ -1,0 +1,79 @@
+[
+    {
+        "id": "001",
+        "nombre": "VERA IPA",
+        "apariencia": "Dorado/ anaranjado profundo, de espuma blanca persistente y opalescencia característica. ",
+        "aroma": "Frutal, herbal, cítrico. Balanceado hacia el lúpulo proveniente de la malta.",
+        "sabor": "Muy suave lupulado en hervor que le da un amargor bajo, con intenso sabor cítrico y a frutas tropicales .",
+        "presemtacion":" Patagonia Vera Ipa 730cc Caja x 6 unidades",
+        "precio": 8940,
+        "img": "./img/veraipa.webp",
+        "cantidad": 1
+    },
+    {
+        "id": "002",
+        "nombre": "WEISSE",
+        "apariencia": "Color pajizo opalescente, de espuma densa y cremosa.",
+        "aroma": "Perfumada. Cítrico y especiado. Con notas frutales y a clavo de olor.",
+        "sabor": "Muy refrescante, cítrico y cuerpo liviano.",
+        "presemtacion":" Patagonia Veisse 730cc Caja x 6 unidades",
+        "precio": 8940,
+        "img": "",
+        "cantidad": 1
+    },
+    {
+        "id": "003",
+        "nombre": "CERBEZA AMBAR",
+        "apariencia": "Color ámbar, rojos brillante y espuma blanca.",
+        "aroma": "Caramelo suave, gracias a la combinación de sus 4 maltas.",
+        "sabor": "Sabor maltoso, caramelo leve tostado que deja un sutil dulzor en la boca.",
+        "presemtacion":" Patagonia Ambar 730cc Caja x 6 unidades",
+        "precio": 8940,
+        "img": "",
+        "cantidad": 1
+    },
+    {
+        "id": "004",
+        "nombre": "BOHEMIAN PILSENE ",
+        "apariencia": "Color dorado brillante, de espuma densa.",
+        "aroma": "Aromas a maltas claras, como pan. Con un especiado leve.",
+        "sabor": "Sabor maltoso, con buen cuerpo y un ﬁnal amargo persistente.",
+        "presemtacion":" Patagonia Bohemian Pilsen 730cc Caja x 6 unidades",
+        "precio": 8940,
+        "img": "./img/veraipa.webp",
+        "cantidad": 1
+    },
+    {
+        "id": "005",
+        "nombre": "HOPPY LAGER",
+        "apariencia": "Color dorado profundo, de espuma densa y duradera.",
+        "aroma": "El aroma a lúpulo se percibe con notas cítricas y a durazno",
+        "sabor": " Amargo bajo y cuerpo moderado.",
+        "presemtacion":" Patagonia Hoppy Lager 730cc Caja x 6 unidades",
+        "precio": 8940,
+        "img": "./img/veraipa.webp",
+        "cantidad": 1
+    },
+    {
+        "id": "006",
+        "nombre": " KILÓMETRO 24.7",
+        "apariencia": "Dorado profundo, con un leve tinte rosado por el sauco,",
+        "aroma": "Intenso aroma a lúpulo, frutas blancas y cítrico.",
+        "sabor": "Suave lupulado que le da un amargor elegante,",
+        "presemtacion":" Patagonia 24.7 730cc Caja x 6 unidades",
+        "precio": 8940,
+        "img": "./img/veraipa.webp",
+        "cantidad": 1
+    },
+    {
+        "id": "007",
+        "nombre": "KÜNÉ ",
+        "apariencia": "Color bronce claro, con espuma blanca cremosa",
+        "aroma": "Cítrico y leve herbal del lúpulo Mapuche. ",
+        "sabor": "Amargo suave con notas leves a caramelo de la malta.",
+        "presemtacion":" Patagonia Kune 730cc Caja x 6 unidades",
+        "precio": 9840,
+        "img": "./img/veraipa.webp",
+        "cantidad": 1
+    }
+]
