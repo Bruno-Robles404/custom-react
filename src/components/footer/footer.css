@@ -1,11 +1,34 @@
-
 .footer-container {
     display: grid;
     grid-template-rows: 300px;
-    grid-template-columns: 400px 400px 400px;
-    grid-gap: 50px;
-    align-items:center;
+    grid-template-columns: 400px 600px 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100vw;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
 }
+
+footer-green {
+    display: flex;
+
+}
+
+.green-paragraph{
+    font-family: 'Sriracha';
+    line-height: 15px;    
+    text-align: center;
+}
+
+.green-title {
+    font-family: "Potta One";
+    text-align: center;
+}
+
 
 .footer-brand {
     width: 400px;
@@ -18,13 +41,13 @@
     max-width: 150%;
 }
 
-.footer-paragraph{
+.footer-paragraph {
     text-align: center;
     font-weight: 200;
     font-family: "Potta One";
 }
 
-.list-item{
+.list-item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,14 +55,14 @@
 
 }
 
-.item-link{
-    font-size: 40px;   
+.item-link {
+    font-size: 40px;
     color: black;
+    text-decoration-line: none;
 }
 
-.item-paragraph{
+.item-paragraph {
     font-size: 16px;
-    font-family:"Potta One";
+    font-family: "Potta One";
     color: black;
-
 }
