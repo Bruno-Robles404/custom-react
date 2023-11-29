@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faInstagram, faTwitch } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons"
 
 
 // IMPORTO EL ARCHIVO CSS
@@ -13,35 +12,41 @@ const Footer = () => {
 
   return (
 
-    <footer>
-      <div className="footer-container">
-        <img className="footer-img" src={brand} alt="logo" />
-        <p className="footer-paragraph">
+    <footer className="footer-container">
 
-          EL LUGAR DEL MUNDO DONDE MAS FUERTE LATE EL CORAZON DE LA PATAGONIA</p>
+      <div className="footer-green">
+        <p> En Bariloche se generan 280 toneladas de basura por día.
+          En verano, estos residuos se incrementan un 30% y generan
+          70 toneladas más por día.
+          Por eso, con residuos reciclados hicimos este souvenir.
+          </p>
+          
 
       </div>
 
-      <div className="redes-container">
-        <ul>
-          <li>
-            <a href="">  <FontAwesomeIcon icon={faHome} />  </a>
+      <div className="footer-brand">
+        <a className="brand-link" href=""> <img className="brand-img" src={brand} alt="logo de la empresa" /></a>
+      </div>
+
+      <div className="footer-redes">
+        <ul className="redes-list">
+
+          <li className="list-item">
+            <a className="item-link" href=""><FontAwesomeIcon icon={faFacebook} /> </a>
+            <a href=""><p className="item-paragraph">DANOS UN LIKE EN FACEBOOK</p></a>
           </li>
-          <li>
-            <a href=""><FontAwesomeIcon icon={faFacebook} /> </a>
+
+          <li className="list-item" >
+            <a className="item-link" href="">  <FontAwesomeIcon icon={faInstagram} /></a>
+            <a href=""><p className="item-paragraph">UNETE A NUESTRO INSTAGRAM</p></a>
           </li>
-          <li>
-            <a href="">  <FontAwesomeIcon icon={faInstagram} /></a>
-          </li>
-          <li>
-            <a href=""><FontAwesomeIcon icon={faTwitch} /> </a>
+
+          <li className="list-item">
+            <a className="item-link" href=""><FontAwesomeIcon icon={faYoutube} /> </a>
+            <a href=""><p className="item-paragraph">VISITANOS EN YOUTUBE</p></a>
           </li>
         </ul>
       </div>
-      <div>
-
-      </div>
-
 
     </footer>
   );
