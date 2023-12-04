@@ -4,9 +4,9 @@ import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg
 
 
 // IMPORTO EL ARCHIVO CSS
-import "./footer.css"
+import "./footerComponent.css"
 
-const Footer = () => {
+const FooterComponent = () => {
   //declaro una variable donde se almacenara la ruta de la imagen del logo
   const brand = "./src/components/img/logo-patagonia.png";
 
@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-brand">
-        <a className="brand-link" href=""> <img className="brand-img" src={brand} alt="logo de la empresa" /></a>
+        <a className="brand-link" href=""> <img className="footer-img" src={brand} alt="logo de la empresa" /></a>
       </div>
 
       <div className="footer-redes">
@@ -52,9 +52,8 @@ const Footer = () => {
         </ul>
       </div>
 
-      
     </footer>
   );
 };
 
-export default Footer;
+export default FooterComponent;

@@ -6,7 +6,6 @@
     justify-content: center;
     margin-top: 50px;
     width: 100vw;
-    
     position: absolute;
     bottom: 0;
     left: 0;
@@ -37,7 +36,7 @@ footer-green {
     align-items: center;
 }
 
-.brand-img {
+.footer-img {
     max-width: 150%;
 }
 
