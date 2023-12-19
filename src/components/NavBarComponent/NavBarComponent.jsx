@@ -29,15 +29,15 @@ const NavBarComponent = () => {
           </li>
 
           <li>
-            <a className="navbar-link" href="/">PRODUCTOS</a>
+            <a className="navbar-link" href="#">PRODUCTOS</a>
           </li>
 
           <li>
-            <a className="navbar-link" href="/">SHOP</a>
+            <a className="navbar-link" href="#">SHOP</a>
           </li>
 
           <li>
-            <a className="navbar-link" href="/">REFUGIOS</a>
+            <a className="navbar-link" href="#">REFUGIOS</a>
           </li>
         </ul>
         

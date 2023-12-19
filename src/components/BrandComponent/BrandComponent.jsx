@@ -10,7 +10,10 @@ function BrandComponent() {
     return (
 
         <div className='navbar-brand'>
-            <img className="brand-img" src={brand} alt="logo" />
+           
+            <a href="/">
+                 <img className="brand-img" src={brand} alt="logo" />
+            </a>
         </div>
     )
 }
