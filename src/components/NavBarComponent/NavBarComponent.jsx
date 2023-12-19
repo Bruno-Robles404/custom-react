@@ -30,7 +30,6 @@ const NavBarComponent = () => {
 
           <li>
             <a className="navbar-link" href="/">PRODUCTOS</a>
-          
           </li>
 
           <li>
@@ -41,6 +40,7 @@ const NavBarComponent = () => {
             <a className="navbar-link" href="/">REFUGIOS</a>
           </li>
         </ul>
+        
         <CartWidgetComponent />
       </nav>
     </header>

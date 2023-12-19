@@ -1,9 +1,10 @@
-.greeting-container{
- display: flex;
- flex-direction: column;
- align-items: center;
- background-color: black;
- color: azure;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- padding-top: 10px;
+
+
+.card-products{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
