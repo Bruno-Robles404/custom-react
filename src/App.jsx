@@ -1,6 +1,6 @@
 
 //componentes
-import NavBarComponent from './components/NavBarComponent/NavBarComponent.jsx';
+
 import FooterComponent from './components/footerComponent/footerComponent.jsx';
 
 //react bootstrap
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <NavBarComponent />
+    
       <MainRouter/>
       <FooterComponent />
     </>

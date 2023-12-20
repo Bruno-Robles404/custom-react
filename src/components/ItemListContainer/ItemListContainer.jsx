@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import React from 'react'
 import "./ItemListContainer.css"
 
-
+import{Link} from "react-router-dom"
 
 const ItemListContainer = ({ productsData }) => {
 
@@ -15,7 +15,7 @@ const ItemListContainer = ({ productsData }) => {
           return (
 
             <Card key={products.id} style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={products.thumbnail} />
+              <Link ><Card.Img variant="top" src={products.thumbnail} /> </Link>
               <Card.Body>
                 <Card.Title>{products.title}</Card.Title>
                 <Card.Text>

@@ -6,4 +6,10 @@ export async function getProducts (limit=4){
 
 }
 
+export async function getProductById (id){
+   return await axios.get (`https://dummyjson.com/products/${id}`) ;
+
+}
+
+
 

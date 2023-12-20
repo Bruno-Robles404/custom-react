@@ -1,6 +1,8 @@
 import React from 'react'
+ import { Link } from 'react-router-dom';
 
 import "./BrandComponent.css"
+
 
 function BrandComponent() {
 
@@ -8,12 +10,11 @@ function BrandComponent() {
     const brand = "/src/components/img/patagonia-logo.png";
 
     return (
-
+       
         <div className='navbar-brand'>
+       
+       <Link> <img className="brand-img" src={brand} alt="logo" /></Link>
            
-            <a href="/">
-                 <img className="brand-img" src={brand} alt="logo" />
-            </a>
         </div>
     )
 }

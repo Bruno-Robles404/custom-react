@@ -6,14 +6,16 @@ import BrandComponent from "../BrandComponent/BrandComponent";
 //componente CARTWIDGET
 import CartWidgetComponent from "../CartWidgetComponent/CartWidgetComponent";
 
+//react router dom
 
+import { Link } from "react-router-dom";
 
 //import el archivo css del NavBar
 
 import "./NavBarComponent.css"
 
-const NavBarComponent = () => {
 
+const NavBarComponent = () => {
 
 
   return (
@@ -25,11 +27,7 @@ const NavBarComponent = () => {
 
         <ul className="navbar-list">
           <li>
-            <a className="navbar-link" href="/">HOME</a>
-          </li>
-
-          <li>
-            <a className="navbar-link" href="#">PRODUCTOS</a>
+            <Link className="navbar-link">PRODUCTOS</Link>
           </li>
 
           <li>
@@ -40,7 +38,7 @@ const NavBarComponent = () => {
             <a className="navbar-link" href="#">REFUGIOS</a>
           </li>
         </ul>
-        
+
         <CartWidgetComponent />
       </nav>
     </header>
