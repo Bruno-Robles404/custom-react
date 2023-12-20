@@ -11,7 +11,7 @@ export const MainRouter = () => {
          <NavBarComponent />
             <Routes>
                 <Route path='/' element={<Home/>} />
-                <Route path='/item/:id' element={<ItemDetailContainer/>} />
+                <Route path='/item/:productd' element={<ItemDetailContainer/>} />
             </Routes>
         </BrowserRouter>
     )

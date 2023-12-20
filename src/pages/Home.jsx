@@ -7,5 +7,6 @@ export const Home = () => {
     
   return (
     <ItemListContainer productsData={ productsData} />
+    
   )
 }
