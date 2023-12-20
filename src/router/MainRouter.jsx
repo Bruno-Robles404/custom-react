@@ -7,11 +7,11 @@ import BrandComponent from '../components/BrandComponent/BrandComponent.jsx';
 export const MainRouter = () => {
     return (
         <BrowserRouter>
-        <BrandComponent />
-         <NavBarComponent />
+            <BrandComponent />
+            <NavBarComponent />
             <Routes>
-                <Route path='/' element={<Home/>} />
-                <Route path='/item/:productd' element={<ItemDetailContainer/>} />
+                <Route path='/' element={<Home />} />
+                <Route path='/item/:productId' element={<ItemDetailContainer />} />
             </Routes>
         </BrowserRouter>
     )

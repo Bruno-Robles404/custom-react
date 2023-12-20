@@ -18,6 +18,7 @@ import "./NavBarComponent.css"
 const NavBarComponent = () => {
 
 
+
   return (
     <header className="header">
 
@@ -27,18 +28,16 @@ const NavBarComponent = () => {
 
         <ul className="navbar-list">
           <li>
-            <Link className="navbar-link">PRODUCTOS</Link>
+            <Link to='/' className="navbar-link">PRODUCTS</Link>
           </li>
-
           <li>
             <a className="navbar-link" href="#">SHOP</a>
           </li>
-
           <li>
-            <a className="navbar-link" href="#">REFUGIOS</a>
+            <a className="navbar-link" href="#">CATEGORY</a>
+           
           </li>
         </ul>
-
         <CartWidgetComponent />
       </nav>
     </header>

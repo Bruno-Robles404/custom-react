@@ -8,6 +8,7 @@ import{Link} from "react-router-dom"
 const ItemListContainer = ({ productsData }) => {
 
   console.log(productsData)
+  
   return (
     <div className='card-products'>
       {
