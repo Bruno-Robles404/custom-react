@@ -7,15 +7,16 @@ import FooterComponent from './components/footerComponent/footerComponent.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { MainRouter } from './router/MainRouter.jsx';
+import { CartProvider } from './components/context/CartContext.jsx';
 
 
-function App() {
-
-
+const App = () => {
   return (
     <>
-      <MainRouter/>
-      <FooterComponent />
+      <CartProvider>
+        <MainRouter />
+        <FooterComponent />
+      </CartProvider>
     </>
   )
 }

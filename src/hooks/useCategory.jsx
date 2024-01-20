@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react"
-import { getCategories } from "../services/categoriesService"
+import { getCategories } from "../services"
 
 
 export const useCategory = () => {
 
-    const [category, setCategory] = useState([])
+    const [category, setCategory] = useState([]);
 
     useEffect(() => {
         getCategories()
-        .them((res)=>setCategory(res.data))
-        .catch((err)=>console.log(err));
-    },[]);
-    
-    return(category)
-}
+            .then((res) => setCategory(res.data))
+            .catch((err) => console.log(err));
+    }, []);
+
+    return {category}
+};

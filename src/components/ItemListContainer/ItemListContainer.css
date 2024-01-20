@@ -1,10 +1,10 @@
-
-
-.card-products{
-
+.card-products {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     align-items: center;
+    margin-top: 50px;
+    gap: 100px;
 }

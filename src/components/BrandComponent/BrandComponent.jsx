@@ -7,7 +7,7 @@ import "./BrandComponent.css"
 function BrandComponent() {
 
     //declaro una variable donde se almacenara la ruta de la imagen del logo
-    const brand = "/src/components/img/patagonia-logo.png";
+    const brand = "../src/components/img/patagonia-logo.png";
 
     return (
 

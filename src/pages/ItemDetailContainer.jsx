@@ -1,15 +1,16 @@
-import React from 'react'
+
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import { Link, useParams } from "react-router-dom";
 import { useGetProductById } from '../hooks/useProducts';
-import { useParams } from 'react-router-dom';
+import ItemCountComponent from '../components/ItemCountComponent/ItemCountComponent';
+
 
 
 export const ItemDetailContainer = () => {
   
-  const {productId} = useParams()
+  const {id} = useParams ();
 
-  const { productData } = useGetProductById(productId)
+  const { productData } = useGetProductById("products", id)
 
   return (
     <Card key={productData.id} style={{ width: '18rem' }}>
@@ -20,7 +21,8 @@ export const ItemDetailContainer = () => {
           {productData.description}
         </Card.Text>
         <div>{productData.price}</div>
-        <Button variant="primary">Go somewhere</Button>
+        <ItemCountComponent productId={productData.id}/>
+        <Link to={`/update-product/${productData.id}`} >Editor producto</Link>
       </Card.Body>
     </Card>
   )

@@ -8,7 +8,7 @@ import "./footerComponent.css"
 
 const FooterComponent = () => {
   //declaro una variable donde se almacenara la ruta de la imagen del logo
-  const brand = "./src/components/img/logo-patagonia.png";
+  const brand = "../src/components/img/logo-patagonia.png";
 
   return (
 
